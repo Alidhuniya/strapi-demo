@@ -1,0 +1,25 @@
+{
+  "kind": "singleType",
+  "collectionName": "bios",
+  "info": {
+    "name": "bio"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "email": {
+      "type": "email"
+    },
+    "position": {
+      "type": "string"
+    },
+    "desc": {
+      "type": "richtext"
+    }
+  }
+}
